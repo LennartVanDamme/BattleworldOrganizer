@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleworldOrganizer", "BattleworldOrganizer\BattleworldOrganizer.csproj", "{5E44C4DD-35FE-48F7-83F8-8465F8F20A91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4927D13D-3825-429D-A051-AD19094D69AF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E44C4DD-35FE-48F7-83F8-8465F8F20A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E44C4DD-35FE-48F7-83F8-8465F8F20A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E44C4DD-35FE-48F7-83F8-8465F8F20A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E44C4DD-35FE-48F7-83F8-8465F8F20A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35349BF3-38A0-463C-9C3D-F8F828844275}
+	EndGlobalSection
+EndGlobal
