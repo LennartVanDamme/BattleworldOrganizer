@@ -24,5 +24,13 @@
             _roster.Add(entry.CharacterId, entry);
         }
 
+        public RosterEntry? GetCharacter(string characterId)
+        {
+            if(_roster.TryGetValue(characterId, out RosterEntry rosterEntry))
+                return rosterEntry;
+
+            return null;
+        }
+
     }
 }

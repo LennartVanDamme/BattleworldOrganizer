@@ -1,0 +1,39 @@
+{
+  "day1": {
+    "mission1": {
+      "requirementType": "starrank",
+      "requirement": 3,
+      "characters": [
+        "OldManLogan",
+        "HankPym",
+        "Sasquash",
+        "Guardian",
+        "Daken",
+        "IronPatriot"
+      ]
+    },
+    "mission2": {
+      "requirementType": "starrank",
+      "requirement": 5,
+      "characters": [
+        "BlackBolt",
+        "BlackPantherShuri",
+        "NorthStar",
+        "Pandapool",
+        "TheLeader"
+      ]
+    },
+    "mission3": {
+      "requirementType": "starrank",
+      "requirement": 7,
+      "characters": [
+        "IronMan",
+        "Deathpool",
+        "Namor",
+        "MisterFantistic",
+        "Deadpool",
+        "Wolverine"
+      ]
+    }
+  }
+}

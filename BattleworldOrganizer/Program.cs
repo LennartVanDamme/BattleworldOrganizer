@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using BattleworldOrganizer.IO;
 using BattleworldOrganizer.Models;
+using BattleworldOrganizer.Models.Requirements;
 
 Console.WriteLine("Hello, World!");
 
@@ -17,3 +18,24 @@ foreach (RosterEntry entry in rosterEntries)
 }
 
 Console.WriteLine("All entries processed");
+
+var missionRequirements = new SpecOpsMissionReader().Read();
+
+foreach(var specialOpsDayRequirements in missionRequirements)
+{
+    foreach(var dayRequirement in specialOpsDayRequirements)
+    {
+        dayRequirement.Characters.ConvertAll(character => 
+        {
+            if(dayRequirement.RequirementType == "starrank")
+            {
+                return new StarRankRequirement(character) { StarRank = dayRequirement.Requirement };
+            }else
+            {
+                return new 
+            }
+        });
+    }
+}
+
+Console.WriteLine("Write");
